@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/common.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="js/jquery.mousewheel.js"></script>
+	<script>
+	$( function() {
+        $( ".number" ).spinner({
+          min: 1
+        });
+      } );
+    </script>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link href="https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/slick.css">
+	<link rel="stylesheet" type="text/css" href="css/ui.spinner.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div class="header">
+		<div class="wrap">
+			<div class="header-left">
+				<span class="menu-btn"><span></span></span>
+				<p>Free UAE shipping + Free WORLDWIDE shipping on all orders over $200  
+				</p>
+				<a href="#">
+					<img src="img/logo.png" alt="">
+				</a>
+			</div>
+			<div class="header-right">
+				<p>
+					<a href="#">NEED HELP?</a>
+				</p>
+				<div class="menu">
+					<div class="menu-item price">
+						<a href="#">
+							USD
+						</a>
+					</div>
+					<div class="menu-item">
+					<a href="#">
+						<img src="img/search.png"  alt="">
+					</a>
+					</div>
+					<div class="menu-item">
+					<a href="#">
+						<img src="img/user.png"  alt="">
+					</a>
+					</div>
+					<div class="menu-item">
+					<a href="#">
+						<img src="img/heart.png" alt="">
+					</a>
+					</div>
+					<div class="menu-item basket" alt="">
+					<a href="#">
+						<img src="img/basket.png" alt="">
+						<span class="bag">MY BAG<br>Item (0)</span>
+					</a>
+					</div>
+				</div>
+			</div>
+			<div class="header-bottom">
+				<ul class="head-menu">
+					<li><a href="#">NEW</a></li>
+					<li class="drop-down"><a href="#">SWIM</a>
+						<ul class="second-menu">
+							<li><a href="#">section</a></li>
+							<li><a href="#">section</a></li>
+							<li><a href="#">section</a></li>
+						</ul>
+					</li>
+					<li><a href="#">BEACHWEAR</a></li>
+					<li><a href="#">LOUNCHWEAR</a></li>
+					<li><a href="#">GIFT CARD</a></li>
+					<li class="drop-down"><a href="#" style="color: #ed1e1e">SALE</a>
+						<ul class="second-menu">
+							<li><a href="#">section</a></li>
+							<li><a href="#">section</a></li>
+							<li><a href="#">section</a></li>
+						</ul>
+					</li>
+					<li class="drop-down"><a href="#">CUSTOMER CARE</a>
+						<ul class="second-menu">
+							<li><a href="#">section</a></li>
+							<li><a href="#">section</a></li>
+							<li><a href="#">section</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>	
+	</div>
+	<div class="section bag">
+		<div class="wrap">
+			<h2>Shopping Bag</h2>
+			<form>
+				<div class="bag-list">
+					<div class="bag-top">
+						<div class="bag-left-top">
+							<span>Product</span>
+						</div>
+						<div class="bag-right-top">
+							<span>Price</span>
+							<span>Quantity</span>
+							<span>Total</span>
+						</div>
+					</div>
+					<ul class="bag-items">
+						<li>
+							<div class="bag-item">
+								<div class="left-info">
+									<a href="">
+										<img src="img/plavki-bikini.jpg" alt="">
+									</a>
+									<ul class="info-item">
+										<li class="name-item"><a href="#">Covelly Top - Red Rib</a></li>
+										<li class="color"><span>Color: Red Rib</span></li>
+										<li class="size">
+											<span>Size:</span>
+											<select>
+												<option>XS</option>
+												<option>XL</option>
+												<option>S</option>
+												<option>M</option>
+											</select>
+										</li>
+										<li class="remove"><input type="button" value="Remove"></li>
+									</ul>
+								</div>
+								<div class="right-info">
+									<div class="price">
+										<span>$57.60</span>
+									</div>
+									<div class="amount">
+										 <input id="spinner" name="value" type="number" class="number ui-spinner-input" value="1">
+									</div>
+									<div class="total">
+										<span>$57.60</span>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="bag-item">
+								<div class="left-info">
+									<a href="">
+										<img src="img/plavki-bikini.jpg" alt="">
+									</a>
+									<ul class="info-item">
+										<li class="name-item"><a href="#">Covelly Top - Red Rib</a></li>
+										<li class="color"><span>Color: Red Rib</span></li>
+										<li class="size">
+											<span>Size:</span>
+											<select>
+												<option>XS</option>
+												<option>XL</option>
+												<option>S</option>
+												<option>M</option>
+											</select>
+										</li>
+										<li class="remove"><input type="button" value="Remove"></li>
+									</ul>
+								</div>
+								<div class="right-info">
+									<div class="price">
+										<span>$57.60</span>
+									</div>
+									<div class="amount">
+										 <input id="spinner" name="value" type="number" class="number ui-spinner-input" value="1">
+									</div>
+									<div class="total">
+										<span>$57.60</span>
+									</div>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="stats-all">
+					<div class="statistics">
+						<div class="layer"><span>Subtotal:</span><span class="price">$139.60</span></div>
+						<div class="layer discount">
+							<div class="stat-input">
+								<input type="text" placeholder="Discount Code">
+							</div>
+							<span class="price">$00.00</span>
+						</div>
+						<div class="layer"><span>TOTAL:</span><span class="price">$139.60</span></div>
+						<p>Shipping and Tax calculated at Checkout
+						</p>
+						<div class="stats-bottom">
+							<a href="#" class="check">CHECKOUT</a>
+							<span><a href="#">UPDATE BAG</a></span>
+							<span><a href="#">CONTINUE SHOPPING</a></span>
+						</div>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+<div class="footer">
+		<div class="wrap">
+			<div class="footer-top">
+				<div class="footer-left">
+					<ul>
+						<li><h4>About</h4></li>
+						<li><a href="#">Story</a></li>
+						<li><a href="#">Lookbook</a></li>
+						<li><a href="#">Blog</a></li>
+						<li><a href="#">Stocklist</a></li>
+						<li><a href="#">#vanBarbraLady</a></li>
+					</ul>
+					<ul>
+						<li><h4>Customer Care</h4></li>
+						<li><a href="#">Contact</a></li>
+						<li><a href="#">Size Guide</a></li>
+						<li><a href="#">Shop Gift Cards</a></li>
+						<li><a href="#">Discount</a></li>
+						<li><a href="#">Shipping</a></li>
+						<li><a href="#">Return & Exchange</a></li>
+					</ul>
+				</div>
+				<div class="footer-right">
+				<p>	Sign up and receive 10% off
+					your first purchase
+				</p>
+				<form class="form-footer">
+					<input type="text" value="Email address">
+					<input type="submit" class="email-footer">
+				</form>
+				<ul>
+					<li><a href="#"><img src="img/f-icon.png" alt=""></a></li>
+					<li><a href="#"><img src="img/i-icon.png" alt=""></a></li>
+					<li><a href="#"><img src="img/w-icon.png" alt=""></a></li>
+					<li><a href="#"><img src="img/y-icon.png" alt=""></a></li>
+					<li><a href="#"><img src="img/t-icon.png" alt=""></a></li>
+				</ul>
+				</div>
+			</div>
+			<div class="footer-bottom">
+				<p>2020 vanBARBRA  -  Terms & Conditions  -  Privacy Policy</p>
+				<ul>
+					<li><a href="#"><img src="img/paypal.png" alt=""></a></li>
+					<li><a href="#"><img src="img/mastercard.png" alt=""></a></li>
+					<li><a href="#"><img src="img/visa.png" alt=""></a></li>
+					<li><a href="#"><img src="img/cashaed.png" alt=""></a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
